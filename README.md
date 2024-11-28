@@ -35,8 +35,6 @@ _It is made for desktops only, might have some issues over small screens_
 
 ## 📧 Contact
 
-## 📧 Contact
-
 If you have any questions or feedback, feel free to reach out:
 
 - **Email**: [arjunsharma.theta@gmail.com](mailto:arjunsharma.theta@gmail.com)
