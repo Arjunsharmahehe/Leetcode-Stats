@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container{
+  min-height: 100svh;
+  width: 100vw;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+}
+
+.row{
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+}
+
+.container > form > button{
+  background-color: #FEF7FF;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border: 1px solid #79747E;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.container > form > button:hover{
+  background-color: #F7F2FA;
+}
+
+.container > form > input{
+  all: unset;
+  background-color: #FEF7FF;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 4px 12px;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.container > form > input:hover{
+  all: unset;
+  background-color: #FEF7FF;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 4px 12px;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.container > form > input:focus{
+  all: unset;
+  outline: 1px solid #79747E;
+  background-color: #FEF7FF;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 3.5px 12px;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+

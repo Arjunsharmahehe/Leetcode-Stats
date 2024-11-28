@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.solvedContainer{
+  flex: 1;
+  width: 100%;
+  background-color: #FEF7FF;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-radius: 8px;
+  border: solid 1px #CAC4D0;
+}
+
+.solvedContainer > p{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.solvedContainer .solvedTitle{
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+
+.solvedContainer .big{
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+}
+.solvedContainer .easy{
+  color: rgb(63, 221, 63);
+}
+.solvedContainer .medium{
+  color: rgb(214, 212, 53)
+}
+.solvedContainer .hard{
+  color: rgb(224, 55, 55);
+}
+
+.solvedContainer .totalQuestions{
+  font-size: 0.75rem;
+  color: rgb(165, 165, 165);
+}
+
+/* .solvedContainer .smol{
+  font-size: 0.75rem;
+} */

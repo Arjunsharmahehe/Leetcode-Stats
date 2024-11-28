@@ -1,0 +1,63 @@
+.dailyContainer{
+  height: 100%;
+  background-color: #FEF7FF;
+  border: solid 1px #CAC4D0;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 1;
+  flex-grow: 2;
+}
+
+.questionNumber{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.dailyProblem > h2{
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  max-width: 18ch;
+}
+
+.likesAndDiff{
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+
+.likes{
+  color: rgb(165, 165, 165);
+  font-weight: 400;
+}
+.diff{
+  font-weight: 600;
+}
+
+.Easyx{
+  color: rgb(38, 214, 38);
+}
+.Mediumx{
+  color: rgb(214, 212, 53);
+}
+.Hardx{
+  color: rgb(207, 0, 0);
+}
+
+.dailyContainer > button{
+  margin-top: 12px;
+  width: 100%;
+  background-color: #FEF7FF;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  border: 1px solid #79747E;
+  border-radius: 8px;
+}
+.dailyContainer > button:hover{
+  background-color: rgb(38, 214, 38);
+  border: 1px solid rgb(38, 214, 38);
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+}

@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.progressContainer{
+  height: 100%;
+  padding: 12px 8px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Total{
+  background-color: #F7F2FA;
+  filter: drop-shadow(1px 1px #CAC4D0dd);
+  margin-right: 8px;
+  flex: 1;
+}
+
+.Easy{
+  background-color: rgb(63, 221, 63);
+  filter: drop-shadow(1px 1px #279412);
+  flex: 1;
+}
+
+.Mid{
+  background-color: rgb(214, 212, 53);
+  filter: drop-shadow(1px 1px #afc014dd);
+  flex: 1;
+}
+
+.Hard{
+  background-color: rgb(224, 55, 55);
+  filter: drop-shadow(1px 1px #750707dd);
+  flex: 1;
+}
+
+.progressTitle{
+  text-align: center;
+}
+
+.progressPercentage{
+  text-align: center;
+  font-weight: 600;
+}
+

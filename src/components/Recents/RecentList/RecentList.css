@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.listElement{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FEF7FF;
+  border: solid 1px #CAC4D0;
+  padding: 12px 12px;
+  border-radius: 4px;
+}
+
+.listElement:hover{
+  background-color: #F7F2FA;
+  filter: drop-shadow(1px 1px #CAC4D0dd);
+}
+
+.title{
+  color: #1D1B20;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 30ch;
+}
+
+.status{
+  font-size: 1rem;
+}
+
+.green{
+  color: rgb(38, 214, 38);
+}
+
+.red{
+  color: rgb(207, 0, 0);
+}
+
+.language{
+  color: rgb(165, 165, 165);
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: right;
+}

@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.notFoundContainer{
+  border-radius: 8px;
+  background-color: #FEF7FF;
+  border: solid 1px #CAC4D0;
+  padding: 20px 40px;
+}
+.notFoundContainer:hover{
+  background-color: #F7F2FA;
+  filter: drop-shadow(1px 1px #CAC4D0dd);
+}
+
+.notFoundTitle{
+  color: rgb(165, 165, 165);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.notFoundSubtitle{
+  color: rgb(207, 0, 0);
+  text-align: center;
+  font-weight: 500;
+}
